@@ -1,5 +1,19 @@
 # Git Lab... not GitLab ...
 
+
+** NOTE ** This assumes a few things:
+* You're on a Mac or Linux environment
+  * If you're running windows, you CAN either run `docker` to run a linux container
+  * `docker run -it --rm ubuntu` as an example setup your SSH Keys and then you can `git` at it... (Sorry, I couldn't help myself)
+* You have `git` installed in some capacity.
+* You have a GitHub account
+* You've setup username/password or SSH Keys for that account on your local machine
+  * If you haven't done this, please visit [SETUP](SETUP.md) for SSH setup
+
+----
+
+## Overview
+
 Alright, so you feel like messing around with some `git`?! 
 
 You don't NEED GitHub (or GitLab) for that, you can toy around with most of `git`  
