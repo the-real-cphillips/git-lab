@@ -47,3 +47,8 @@ Before we go on I'd like to point you to some reading materials or references; u
 - [] After you modify `file1.txt` play around with `git diff`
 - [] After you've made a few commits see what `git log` does
 - [] Change the content of `file2.txt` but don't commit.  How can we revert this? (`git checkout`)
+- [] Once you've done the above steps, delete the repository locally, and try Forking the repo(on github)
+  - Take note of what happens when you do that
+  - How is cloning different now? 
+- [] Repeat the above "Things to do" Tasks with your fork.
+  - Take note of how this is different.
