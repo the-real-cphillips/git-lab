@@ -28,27 +28,27 @@ Before we go on I'd like to point you to some reading materials or references; u
 
 ## Things to do:
 
-- [] Clone this repository (`git clone`)
-- [] Checkout a new branch, be short, but descriptive when naming a branch. (`git checkout`)
-- [] Add A File, name it what you like, be creative.
+- [ ] Clone this repository (`git clone`)
+- [ ] Checkout a new branch, be short, but descriptive when naming a branch. (`git checkout`)
+- [ ] Add A File, name it what you like, be creative.
   - Run `git status` note what you see...
-- [] Stage/Commit that new File, don't forget a commite message!
+- [ ] Stage/Commit that new File, don't forget a commite message!
   - Highly recommend reading this: [How To Write a Commit Message](https://chris.beams.io/posts/git-commit/)
-- [] Edit `file1.txt` to say something other than what it does.
-- [] Stage/Commit these changes
+- [ ] Edit `file1.txt` to say something other than what it does.
+- [ ] Stage/Commit these changes
   - Make sure that commit message is clear
-- [] Push your changes to the remote branch from your local
-- [] Open a Pull Request
-- [] Get Approval
-- [] Merge Pull Request
+- [ ] Push your changes to the remote branch from your local
+- [ ] Open a Pull Request
+- [ ] Get Approval
+- [ ] Merge Pull Request
 
 ## Things to try:
 
-- [] After you modify `file1.txt` play around with `git diff`
-- [] After you've made a few commits see what `git log` does
-- [] Change the content of `file2.txt` but don't commit.  How can we revert this? (`git checkout`)
-- [] Once you've done the above steps, delete the repository locally, and try Forking the repo(on github)
+- [ ] After you modify `file1.txt` play around with `git diff`
+- [ ] After you've made a few commits see what `git log` does
+- [ ] Change the content of `file2.txt` but don't commit.  How can we revert this? (`git checkout`)
+- [ ] Once you've done the above steps, delete the repository locally, and try Forking the repo(on github)
   - Take note of what happens when you do that
   - How is cloning different now? 
-- [] Repeat the above "Things to do" Tasks with your fork.
+- [ ] Repeat the above "Things to do" Tasks with your fork.
   - Take note of how this is different.
