@@ -1,0 +1,20 @@
+# yamllint disable rule:truthy
+---
+
+name: mkdocs-ci
+on:
+  push:
+    branches:
+      - main
+      - github-pages
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: find . -type f \( -iname \.pages -o -iname \*.pdf -o -iname \*.pem -o -iname \*.png -o -iname \*.md -o -iname \*.yml \) -not -path "./mkdocs.yml" -not -path "./docs/*"  -not -path "./gh-pages/*" -not -path "./env/*" -not -path "./README.md" -exec rsync -q -av --relative "{}" docs/ \;
+      - run: pip install mkdocs-material mkdocs-awesome-pages-plugin
+      - run: mkdocs gh-deploy --force
