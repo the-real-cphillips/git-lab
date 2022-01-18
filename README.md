@@ -43,37 +43,57 @@ Next up I'm gonna have some tasks that you'll want to step through and see if yo
 Before we go on I'd like to point you to some reading materials or references; use them how you like.
 
 !!! important "Recommended Reading"
-
-* [Git SCM](https://git-scm.com/book/en/v2)
-    * This is THE book, the resource of resources
-* [Learn Git in Y Minutes](https://learnxinyminutes.com/docs/git/)
-    * This is Cliff/Spark Notes for `git`
+    * [Git SCM](https://git-scm.com/book/en/v2)
+        * This is THE book, the resource of resources
+    * [Learn Git in Y Minutes](https://learnxinyminutes.com/docs/git/)
+        * This is Cliff/Spark Notes for `git`
 
 ---
 
-## Things to do:
+## Tasks to Try
 
-- [ ] Clone this repository (`git clone`)
-- [ ] Checkout a new branch, be short, but descriptive when naming a branch. (`git checkout`)
-- [ ] Add A File, name it what you like, be creative.
-  - Run `git status` note what you see...
-- [ ] Stage/Commit that new File, don't forget a commite message!
-  - Highly recommend reading this: [How To Write a Commit Message](https://chris.beams.io/posts/git-commit/)
-- [ ] Edit `file1.txt` to say something other than what it does.
-- [ ] Stage/Commit these changes
-  - Make sure that commit message is clear
-- [ ] Push your changes to the remote branch from your local
-- [ ] Open a Pull Request
-- [ ] Get Approval
-- [ ] Merge Pull Request
+### Basics
 
-## Things to try:
+* [ ] Clone this repository (`git clone`)
+* [ ] Checkout a new branch, be short, but descriptive when naming a branch. (`git checkout`)
+* [ ] Add A File, name it what you like, be creative.
+    * Run `git status` note what you see...
+* [ ] Stage/Commit that new File, don't forget a commite message!
+    * Highly recommend reading this: [How To Write a Commit Message][git-commits]
+* [ ] Edit `file1.txt` to say something other than what it does.
+* [ ] Stage/Commit these changes
+    * Make sure that commit message is clear
+* [ ] Push your changes to the remote branch from your local
+* [ ] Open a Pull Request
+* [ ] Get Approval
+* [ ] Merge Pull Request
 
-- [ ] After you modify `file1.txt` play around with `git diff`
-- [ ] After you've made a few commits see what `git log` does
-- [ ] Change the content of `file2.txt` but don't commit.  How can we revert this? (`git checkout`)
-- [ ] Once you've done the above steps, delete the repository locally, and try Forking the repo(on github)
-  - Take note of what happens when you do that
-  - How is cloning different now? 
-- [ ] Repeat the above "Things to do" Tasks with your fork.
-  - Take note of how this is different.
+### Things to try
+
+* [ ] After you modify `file1.txt` play around with `git diff`
+* [ ] After you've made a few commits see what `git log` does
+* [ ] Change the content of `file2.txt` but don't commit.  How can we revert this? (`git checkout`)
+* [ ] Once you've done the above steps, delete the repository locally, and try Forking the repo(on github)
+    * Take note of what happens when you do that
+    * How is cloning different now? 
+* [ ] Repeat the above "Things to do" Tasks with your fork.
+    * Take note of how this is different.
+
+---
+
+## Handling Conflicts
+
+
+---
+
+## Other Docs
+
+* [How To Write a Commit Message][git-commits]
+* [DevOps Git Commit Best Practices][2u-good-commits]
+* [DevOps Pull Request Best Practices][2u-pr]
+
+---
+
+[git-commits]: https://cbea.ms/git-commit/
+[2u-good-commits]: https://devops.techdocs.2u.com/best-practices/git/committing/
+[2u-pr]: https://devops.techdocs.2u.com/best-practices/git/pull-request-creation/
