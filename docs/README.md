@@ -35,9 +35,7 @@ usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
 ```
 
 !!! danger "No Git?"
-    If you have no `git` installed, please check out how to do that for your respective Operating System:
-    * [Git Downloads](https://git-scm.com/downloads)
-
+    If you have no `git` installed, please check out how to do that for your respectie Operating System
 
 Next up I'm gonna have some tasks that you'll want to step through and see if you can complete.  
 Before we go on I'd like to point you to some reading materials or references; use them how you like.

@@ -14,6 +14,17 @@ deps: venv
         python3 -m pip install -q -r mkdocs-requirements.txt; \
     )
 
+
+##build 		Builds docs
+build: 
+	@echo "[docs] Building..."
+	@cp README.md docs/index.md
+	@echo "[docs] Ready to be Serve..."
+
+##refresh		While editing, Refreshes content in docs/ directory
+refresh: build
+
+
 ##run 		Active the virtualenv and run MKDocs to serve the pages
 run: venv deps build
 	@( \
