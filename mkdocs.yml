@@ -1,0 +1,66 @@
+# yamllint disable rule:line-length
+---
+
+site_name: Git Workshop
+repo_name: 2uinc/git-workshop
+repo_url: https://github.com/2uinc/git-workshop
+edit_uri: edit/main/
+
+plugins:
+  - autolinks
+  - search
+  - awesome-pages:
+      collapse_single_pages: true
+
+nav:
+  - Welcome: index.md
+  - ...
+
+theme:
+  favicon: assets/images/2u-devops.png
+  logo: assets/images/2u-devops.png
+  features:
+    - navigation.top
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to Dark Mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: black
+      toggle:
+        primary: black
+        icon: material/toggle-switch
+        name: Switch to Light Mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra_css:
+    - assets/stylesheets/emoji.css
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - footnotes
+  - meta
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      permalink: true

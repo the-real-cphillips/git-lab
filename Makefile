@@ -14,30 +14,6 @@ deps: venv
         python3 -m pip install -q -r mkdocs-requirements.txt; \
     )
 
-
-##build 		Builds docs
-build: 
-	@echo "[docs] Building..."
-	@find . -type f \( \
-		-iname \.pages \
-		-o -iname \*.pdf \
-		-o -iname \*.pem \
-		-o -iname \*.png \
-		-o -iname \*.md \
-		-o -iname \*.yml \
-		\) \
-		-not -path "./mkdocs.yml" \
-		-not -path "./docs/*" \
-		-not -path "./gh-pages/*" \
-		-not -path "./env/*" \
-		-not -path ".README.md" \
-		-exec rsync -q -av --relative "{}" docs/ \;
-	@echo "[docs] Ready to be Serve..."
-
-##refresh		While editing, Refreshes content in docs/ directory
-refresh: build
-
-
 ##run 		Active the virtualenv and run MKDocs to serve the pages
 run: venv deps build
 	@( \

@@ -1,16 +1,16 @@
-# Git Lab... not GitLab ...
+# A Git Lab... not GitLab ...
 
 
 ** NOTE ** This assumes a few things:
 * You're on a Mac or Linux environment
-  * If you're running windows, you CAN either run `docker` to run a linux container
+  * If you're running windows, you CAN either run `docker` or tryout WSLv2!
   * `docker run -it --rm ubuntu` as an example setup your SSH Keys and then you can `git` at it... (Sorry, I couldn't help myself)
 * You have `git` installed in some capacity.
-* You have a GitHub account
-* You've setup username/password or SSH Keys for that account on your local machine
+* You have a [GitHub](https://www.github.com) account
+* You've setup SSH Keys for that account on your local machine
   * If you haven't done this, please visit [SETUP](SETUP.md) for SSH setup
 
-----
+---
 
 ## Overview
 
@@ -22,6 +22,9 @@ right on your command-line.
 First, make sure you have `git` installed ( you likely do )
 
 ```bash
+╰─ which git
+/usr/bin/git
+
 ╰─ git
 usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
@@ -38,7 +41,7 @@ Before we go on I'd like to point you to some reading materials or references; u
 * [Learn Git in Y Minutes](https://learnxinyminutes.com/docs/git/)
   * This is Cliff/Spark Notes for `git`
 
-----
+---
 
 ## Things to do:
 
